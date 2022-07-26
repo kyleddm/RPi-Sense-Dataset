@@ -1,0 +1,1056 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface version="1.1">
+  <object class="tk.Toplevel" id="toplevel1">
+    <property name="height">200</property>
+    <property name="width">200</property>
+    <child>
+      <object class="ttk.Frame" id="frame1">
+        <property name="height">200</property>
+        <property name="width">200</property>
+        <layout manager="pack">
+          <property name="propagate">True</property>
+          <property name="side">top</property>
+        </layout>
+        <child>
+          <object class="ttk.Frame" id="frame2">
+            <property name="height">200</property>
+            <property name="width">200</property>
+            <layout manager="pack">
+              <property name="propagate">True</property>
+              <property name="side">top</property>
+            </layout>
+            <child>
+              <object class="ttk.Labelframe" id="lbl_frm_spr_rm">
+                <property name="height">200</property>
+                <property name="text" translatable="yes">Spare Room</property>
+                <property name="width">200</property>
+                <layout manager="grid">
+                  <property name="column">0</property>
+                  <property name="propagate">True</property>
+                  <property name="row">0</property>
+                </layout>
+                <child>
+                  <object class="ttk.Label" id="id9_temp_p">
+                    <property name="text" translatable="yes">temp_p</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">0</property>
+                      <property name="sticky">w</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Label" id="id9_temp_h">
+                    <property name="text" translatable="yes">temp_h</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">1</property>
+                      <property name="sticky">w</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Label" id="id9_pressure">
+                    <property name="text" translatable="yes">pressure</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">2</property>
+                      <property name="sticky">w</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Label" id="id15_humidity">
+                    <property name="text" translatable="yes">humidity</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">3</property>
+                      <property name="sticky">w</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id9_temp_p_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">0</property>
+                      <property name="sticky">e</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id9_temp_h_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">1</property>
+                      <property name="sticky">e</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id9_pressure_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">2</property>
+                      <property name="sticky">e</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id15_humidity_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">3</property>
+                      <property name="sticky">e</property>
+                    </layout>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Labelframe" id="lbl_frm_bdrm">
+                <property name="height">200</property>
+                <property name="text" translatable="yes">Bedroom</property>
+                <property name="width">200</property>
+                <layout manager="grid">
+                  <property name="column">1</property>
+                  <property name="propagate">True</property>
+                  <property name="row">0</property>
+                </layout>
+                <child>
+                  <object class="ttk.Label" id="id8_temp_p">
+                    <property name="text" translatable="yes">temp_p</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">0</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Label" id="id8_temp_h">
+                    <property name="text" translatable="yes">temp_h</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">1</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Label" id="id8_pressure">
+                    <property name="text" translatable="yes">pressure</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">2</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Label" id="id13_humidity">
+                    <property name="text" translatable="yes">humidity</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">3</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id8_temp_p_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">0</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id8_temp_h_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">1</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id8_pressure_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">2</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id13_humidity_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">3</property>
+                    </layout>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Frame" id="frame3">
+            <property name="height">200</property>
+            <property name="width">200</property>
+            <layout manager="pack">
+              <property name="propagate">True</property>
+              <property name="side">top</property>
+            </layout>
+            <child>
+              <object class="ttk.Labelframe" id="lbl_frame_crft_rm">
+                <property name="height">200</property>
+                <property name="text" translatable="yes">Craft Room</property>
+                <property name="width">200</property>
+                <layout manager="grid">
+                  <property name="column">0</property>
+                  <property name="propagate">True</property>
+                  <property name="row">0</property>
+                </layout>
+                <child>
+                  <object class="ttk.Label" id="id10_temp_p">
+                    <property name="text" translatable="yes">temp_p</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">0</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Label" id="id10_temp_h">
+                    <property name="text" translatable="yes">temp_h</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">1</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Label" id="id14_pressure">
+                    <property name="text" translatable="yes">pressure</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">2</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Label" id="id14_humidity">
+                    <property name="text" translatable="yes">humidity</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">3</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id10_temp_p_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">0</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id10_temp_h_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">1</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id14_pressure_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">2</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id14_humidity_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">3</property>
+                    </layout>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Labelframe" id="lbl_frm_bthrm">
+                <property name="height">200</property>
+                <property name="text" translatable="yes">Bathroom</property>
+                <property name="width">200</property>
+                <layout manager="grid">
+                  <property name="column">1</property>
+                  <property name="propagate">True</property>
+                  <property name="row">0</property>
+                </layout>
+                <child>
+                  <object class="ttk.Label" id="id16_temp_p">
+                    <property name="text" translatable="yes">temp_p</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">0</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Label" id="id16_temp_h">
+                    <property name="text" translatable="yes">temp_h</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">1</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Label" id="id16_pressure">
+                    <property name="text" translatable="yes">pressure</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">2</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Label" id="id16_humidity">
+                    <property name="text" translatable="yes">humidity</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">3</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id16_temp_p_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">0</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id16_temp_h_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">1</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id16_pressure_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">2</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id16_humidity_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">3</property>
+                    </layout>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Frame" id="frame4">
+            <property name="height">200</property>
+            <property name="width">200</property>
+            <layout manager="pack">
+              <property name="propagate">True</property>
+              <property name="side">top</property>
+            </layout>
+            <child>
+              <object class="ttk.Labelframe" id="lbl_frm_kitchen">
+                <property name="height">200</property>
+                <property name="text" translatable="yes">Kitchen</property>
+                <property name="width">200</property>
+                <layout manager="grid">
+                  <property name="column">0</property>
+                  <property name="propagate">True</property>
+                  <property name="row">0</property>
+                </layout>
+                <child>
+                  <object class="ttk.Label" id="id12_temp_p">
+                    <property name="text" translatable="yes">temp_p</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">0</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Label" id="id12_temp_h">
+                    <property name="text" translatable="yes">temp_h</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">1</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Label" id="id12_pressure">
+                    <property name="text" translatable="yes">pressure</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">2</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Label" id="id17_humidity">
+                    <property name="text" translatable="yes">humidity</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">3</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id12_temp_p_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">0</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id12_temp_h_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">1</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id12_pressure_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">2</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id17_humidity_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">3</property>
+                    </layout>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Labelframe" id="lbl_frm_landing">
+                <property name="height">200</property>
+                <property name="text" translatable="yes">Landing</property>
+                <property name="width">200</property>
+                <layout manager="grid">
+                  <property name="column">1</property>
+                  <property name="propagate">True</property>
+                  <property name="row">0</property>
+                </layout>
+                <child>
+                  <object class="ttk.Label" id="id5_temp_p">
+                    <property name="text" translatable="yes">temp_p</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">0</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Label" id="id5_temp_h">
+                    <property name="text" translatable="yes">temp_h</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">1</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Label" id="id5_pressure">
+                    <property name="text" translatable="yes">pressure</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">2</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Label" id="id11_humidity">
+                    <property name="text" translatable="yes">humidity</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">3</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id5_temp_p_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">0</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id5_temp_h_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">1</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id5_pressure_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">2</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id11_humidity_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">3</property>
+                    </layout>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Frame" id="frame5">
+            <property name="height">200</property>
+            <property name="width">200</property>
+            <layout manager="pack">
+              <property name="propagate">True</property>
+              <property name="side">top</property>
+            </layout>
+            <child>
+              <object class="ttk.Labelframe" id="lbl_frame_garage">
+                <property name="height">200</property>
+                <property name="text" translatable="yes">Garage</property>
+                <property name="width">200</property>
+                <layout manager="grid">
+                  <property name="column">0</property>
+                  <property name="propagate">True</property>
+                  <property name="row">0</property>
+                </layout>
+                <child>
+                  <object class="ttk.Label" id="id4_temp_p">
+                    <property name="text" translatable="yes">temp_p</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">0</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Label" id="id4_temp_h">
+                    <property name="text" translatable="yes">temp_h</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">1</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Label" id="id7_pressure">
+                    <property name="text" translatable="yes">pressure</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">2</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Label" id="id7_humidity">
+                    <property name="text" translatable="yes">humidity</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">3</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id4_temp_p_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">0</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id4_temp_h_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">1</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id7_pressure_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">2</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id7_humidity_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">3</property>
+                    </layout>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Labelframe" id="lbl_frame_bbthrm">
+                <property name="height">200</property>
+                <property name="text" translatable="yes">Basement Bathroom</property>
+                <property name="width">200</property>
+                <layout manager="grid">
+                  <property name="column">1</property>
+                  <property name="propagate">True</property>
+                  <property name="row">0</property>
+                </layout>
+                <child>
+                  <object class="ttk.Label" id="id6_temp_p">
+                    <property name="text" translatable="yes">temp_p</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">0</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Label" id="id6_temp_h">
+                    <property name="text" translatable="yes">temp_h</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">1</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Label" id="id6_pressure">
+                    <property name="text" translatable="yes">pressure</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">2</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Label" id="id6_humidity">
+                    <property name="text" translatable="yes">humidity</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">3</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id6_temp_p_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">0</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id6_temp_h_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">1</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id6_pressure_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">2</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id6_humidity_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">3</property>
+                    </layout>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="ttk.Frame" id="frame6">
+            <property name="height">200</property>
+            <property name="width">200</property>
+            <layout manager="pack">
+              <property name="propagate">True</property>
+              <property name="side">top</property>
+            </layout>
+            <child>
+              <object class="ttk.Labelframe" id="lbl_frame_boiler_room">
+                <property name="height">200</property>
+                <property name="text" translatable="yes">Boiler Room</property>
+                <property name="width">200</property>
+                <layout manager="grid">
+                  <property name="column">0</property>
+                  <property name="propagate">True</property>
+                  <property name="row">0</property>
+                </layout>
+                <child>
+                  <object class="ttk.Label" id="id2_temp_p">
+                    <property name="text" translatable="yes">temp_p</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">0</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Label" id="id2_temp_h">
+                    <property name="text" translatable="yes">temp_h</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">1</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Label" id="id2_pressure">
+                    <property name="text" translatable="yes">pressure</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">2</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Label" id="id3_humidity">
+                    <property name="text" translatable="yes">humidity</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">3</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id2_temp_p_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">0</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id2_temp_h_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">1</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id2_pressure_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">2</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id3_humidity_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">3</property>
+                    </layout>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Labelframe" id="lbl_frame_basement_office">
+                <property name="height">200</property>
+                <property name="text" translatable="yes">Basement Office</property>
+                <property name="width">200</property>
+                <layout manager="grid">
+                  <property name="column">1</property>
+                  <property name="propagate">True</property>
+                  <property name="row">0</property>
+                </layout>
+                <child>
+                  <object class="ttk.Label" id="id1_temp_p">
+                    <property name="text" translatable="yes">temp_p</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">0</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Label" id="id1_temp_h">
+                    <property name="text" translatable="yes">temp_h</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">1</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Label" id="id1_pressure">
+                    <property name="text" translatable="yes">pressure</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">2</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="ttk.Label" id="id1_humidity">
+                    <property name="text" translatable="yes">humidity</property>
+                    <layout manager="grid">
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">3</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id1_temp_p_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">0</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id1_temp_h_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">1</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id1_pressure_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">2</property>
+                    </layout>
+                  </object>
+                </child>
+                <child>
+                  <object class="tk.Text" id="id1_humidity_txt">
+                    <property name="height">1</property>
+                    <property name="width">10</property>
+                    <layout manager="grid">
+                      <property name="column">1</property>
+                      <property name="propagate">True</property>
+                      <property name="row">3</property>
+                    </layout>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Button" id="go">
+        <property name="command" type="command" cbtype="simple">receiveData</property>
+        <property name="text" translatable="yes">start</property>
+        <bind sequence="&lt;1&gt;" handler="callback" add="" />
+        <layout manager="pack">
+          <property name="propagate">True</property>
+          <property name="side">left</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Button" id="query">
+        <property name="command" type="command" cbtype="simple">checkqueue</property>
+        <property name="text" translatable="yes">query</property>
+        <layout manager="pack">
+          <property name="propagate">True</property>
+          <property name="side">right</property>
+        </layout>
+      </object>
+    </child>
+  </object>
+</interface>

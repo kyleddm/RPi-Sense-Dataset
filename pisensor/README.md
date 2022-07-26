@@ -1,0 +1,8 @@
+This folder is used to run the Raspberry Pi to generate sensor data.  It contains the following items:
+1. ledUtils.py - a utility script made to show the temperature on the SenseHat's LED Matrix.  There's also some other configurations if you don't want the temperature to show; you just need to update sensor.py to run the desired LED configuration.  It's presently set to numbers(avgtemp,'f').  The 'f' stands for fahrenheit.  The avgTemp is an average of the two temperatures the SenseHat produces: temp based on pressure, and temp based on humidity.
+2. config.json - this is used by sensor.py to configure the ID info of rht esensor and how you want the sensor measurements split up.  This contains the following entries:
+    2.1. config - This config can have up to 4 IDs, each one with 1 sensor to 1 ID with all 4 sensors.  Just modifyu the config entry with more items for more IDs.  Be sure to change the corresponding number for each ID!  They must add to 4.
+    2.2. host - this is the IP of the MQTT host
+    2.3. ids - this tells the sensor how many ids it will output.  It can be a min of 1 and a max of 4.
+3. runsensor - this is the script run by the raspberry pi's scheduler (you need to set this up on your own raspberry pi!).
+4. sensor.py - this script does all the heavy lifting.  It connects ot the mqtt host, transmits all the sensor data based on the config layout in config.json, and updates the SenseHat's LED Matrix.

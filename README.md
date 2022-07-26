@@ -1,2 +1,2 @@
 # RPi-Sense-Dataset
-This dataset is a sensor dataset containing sensor information from Raspberry-Pi Sense Hats.
+This dataset is a sensor dataset containing sensor information over 3 months from 10 Raspberry-Pi Sense Hats.  The data is saved in multiple formats.  The raw format is a list of json-like strings sent through the MQTT protocol.  There are also labaled and unlabeled pandas dataframe objects saved as pkl files.  Contained in this repository are python scripts for the RPi Senhsor, the UI that saves the data from the sensors, and post processing scripts as well.  As of this version, the post-processing files are a WORK IN PROGRESS. KYLE2022JUL26

@@ -1,0 +1,12 @@
+!/bin/bash
+### BEGIN INIT INFO
+# Provides: runsensor
+# Required-Start:    $all
+# Required-Stop: 
+# Default-Start:     5 
+# Default-Stop:      6 
+# Short-Description: initializes the raspberry pi's sense hat sensor, and publishes this information over mqtt
+### END INIT INFO
+sleep 30
+cd /home/pi/pisensor
+python3 ./sensor.py
